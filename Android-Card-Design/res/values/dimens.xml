@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="card_horizontal_margin">10dp</dimen>
+    <dimen name="card_vertical_margin">5dp</dimen>
+    <dimen name="card_padding">8dp</dimen>
+    
+    <dimen name="image_size">48dp</dimen>
+
+</resources>

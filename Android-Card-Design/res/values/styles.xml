@@ -1,0 +1,51 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/ActionBar.Blue.Light.Background</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+    
+    <style name="ActionBar.Blue.Light.Background" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/holo_blue_light</item>
+    </style>
+    
+    <style name="noColorsAndDrawables">
+        <item name="android:background">@null</item>
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0dp</item>
+    </style>
+    
+    <style name="cardMarginAndPadding">
+        <item name="android:layout_marginTop">@dimen/card_vertical_margin</item>
+        <item name="android:layout_marginBottom">@dimen/card_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/card_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/card_horizontal_margin</item>
+        <item name="android:padding">@dimen/card_padding</item>
+    </style>
+    
+    <style name="bezelImage">
+        <item name="android:layout_width">@dimen/image_size</item>
+        <item name="android:layout_height">@dimen/image_size</item>
+        <item name="android:layout_marginRight">@dimen/card_padding</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    
+    <style name="cardMoreButton">
+        <item name="android:layout_marginLeft">@dimen/card_padding</item>
+        <item name="android:background">@drawable/card_more_button_background</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+    
+    <style name="singleLineText">
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+</resources>

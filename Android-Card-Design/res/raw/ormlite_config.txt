@@ -1,0 +1,126 @@
+#
+# generated on 2013/12/22 11:14:59
+#
+# --table-start--
+dataClass=com.example.cardslist.database.CategoryModel
+tableName=categories
+# --table-fields-start--
+# --field-start--
+fieldName=parent
+columnName=parent_id
+foreign=true
+foreignAutoRefresh=true
+foreignAutoCreate=true
+# --field-end--
+# --field-start--
+fieldName=childs
+foreignCollection=true
+# --field-end--
+# --field-start--
+fieldName=materials
+foreignCollection=true
+# --field-end--
+# --field-start--
+fieldName=title
+columnName=title
+# --field-end--
+# --field-start--
+fieldName=id
+columnName=_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=creationDate
+columnName=created
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=lastChangedDate
+columnName=changed
+dataPersister=DATE_LONG
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.example.cardslist.database.MaterialModel
+tableName=materials
+# --table-fields-start--
+# --field-start--
+fieldName=category
+columnName=category_id
+foreign=true
+foreignAutoRefresh=true
+foreignAutoCreate=true
+# --field-end--
+# --field-start--
+fieldName=title
+columnName=title
+# --field-end--
+# --field-start--
+fieldName=current_amount
+columnName=current_amount
+# --field-end--
+# --field-start--
+fieldName=minimal_amount
+columnName=minimal_amount
+# --field-end--
+# --field-start--
+fieldName=image
+columnName=image_id
+foreign=true
+foreignAutoRefresh=true
+foreignAutoCreate=true
+# --field-end--
+# --field-start--
+fieldName=id
+columnName=_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=creationDate
+columnName=created
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=lastChangedDate
+columnName=changed
+dataPersister=DATE_LONG
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.example.cardslist.database.ImageModel
+tableName=images
+# --table-fields-start--
+# --field-start--
+fieldName=resourceId
+columnName=resource_id
+# --field-end--
+# --field-start--
+fieldName=webUrl
+columnName=web_url
+# --field-end--
+# --field-start--
+fieldName=color
+columnName=color
+# --field-end--
+# --field-start--
+fieldName=id
+columnName=_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=creationDate
+columnName=created
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=lastChangedDate
+columnName=changed
+dataPersister=DATE_LONG
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
